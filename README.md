@@ -19,6 +19,8 @@ alternative backup configuration file (-configFile) OPTIONAL FLAG: varSizeBackup
 ExampleDirectoryDisc1meta.txt
 
 	-this file defines the starting file creation/(last modified) epoch time of the backup capsule, when the backup directory is yet to be constructed.
+	 (the current entry in ExampleDirectoryDisc1meta.txt is 1515970560.0 which is Sun Jan 14 14:56:00 2018). To build your first backup capsule from the
+	 beginning of time set the first line to 0)
 
 	-This file will be populated with all original directory paths of the files backed up in the backup capsule directory capsule directory. the last
 	 line will be epoch time of the last file that made it into the backup capsule
