@@ -15,7 +15,7 @@ varSizeBackupCapsule has 3 operating modes (-excMode) OPTIONAL FLAG: auto, manua
 
 alternative backup configuration file (-configFile) OPTIONAL FLAG: varSizeBackupConfig.txt is the default backup configuration file if -configFile is not defined 
 
-# ============Configuration Files================
+# =========Configuration Files==========
 ExampleDirectoryDisc1meta.txt
 
 	-this file defines the starting file creation/(last modified) epoch time of the backup capsule, when the backup directory is yet to be constructed.
